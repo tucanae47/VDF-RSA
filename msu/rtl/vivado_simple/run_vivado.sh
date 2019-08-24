@@ -1,9 +1,9 @@
 #!/bin/bash
 
 set -e
-
+rm -rv msu
 # Configuration
-export MOD_LEN=1024
+export MOD_LEN=128
 export SIMPLE_SQ=1
 MODEL=msu
 

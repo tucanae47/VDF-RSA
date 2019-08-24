@@ -19,7 +19,7 @@
 import sys
 import getopt
 
-MOD_LEN = 1024
+MOD_LEN = 128
 M = None
 
 # Set to 50k for final regression runs

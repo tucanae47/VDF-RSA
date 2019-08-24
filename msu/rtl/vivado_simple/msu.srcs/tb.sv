@@ -17,9 +17,9 @@
 `include "msuconfig.vh"
 
 module tb();
-   localparam integer MOD_LEN = 1024;
+   //localparam integer MOD_LEN = 1024;
    //localparam integer MOD_LEN = 128;
-
+   localparam integer MOD_LEN = 128;
    
    logic                   clk;
    logic                   reset;
