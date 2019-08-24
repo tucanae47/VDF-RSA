@@ -1,7 +1,7 @@
 #!/bin/bash
 
 set -e
-rm -rv msu
+rm -rfv msu
 # Configuration
 export MOD_LEN=128
 export SIMPLE_SQ=1
