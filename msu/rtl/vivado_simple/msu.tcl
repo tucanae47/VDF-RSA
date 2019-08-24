@@ -151,16 +151,9 @@ if {[string equal [get_filesets -quiet sources_1] ""]} {
 # Set 'sources_1' fileset object
 set obj [get_filesets sources_1]
 set files [list \
- [file normalize "${origin_dir}/../sdaccel/vdf_control_s_axi.v"] \
  [file normalize "${origin_dir}/msu.srcs/msuconfig.vh"] \
  [file normalize "${origin_dir}/../../../modular_square/rtl/modular_square_simple.sv"] \
  [file normalize "${origin_dir}/../msu.sv"] \
- [file normalize "${origin_dir}/../sdaccel/vdf_axi_read_master.sv"] \
- [file normalize "${origin_dir}/../sdaccel/vdf_axi_write_master.sv"] \
- [file normalize "${origin_dir}/../sdaccel/vdf_counter.sv"] \
- [file normalize "${origin_dir}/../sdaccel/vdf_kernel.sv"] \
- [file normalize "${origin_dir}/../sdaccel/vdf_wrapper.sv"] \
- [file normalize "${origin_dir}/../sdaccel/vdf.v"] \
 ]
 add_files -norecurse -fileset $obj $files
 
